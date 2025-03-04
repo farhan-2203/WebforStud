@@ -6,6 +6,61 @@
     <title>Create Account</title>
 </head>
 <body>
-    
+    <header><h2 style="text-align: center;">Sin-Up</h2></header>
+    <main>
+        <section>
+            <form action="/submit.js">
+                <label for="name"><b><p>Enter Name</p></b></label>
+                <input type="text" placeholder="John etc." id="name">
+                <br>
+                <label for="Password"><b><p>Password</p></b></label>
+                <input type="password" id="Password">
+                <br>
+                    <h3>Select Your Class</h3>
+                <label for="IX">
+                    <input type="radio" value="IX" name="class" id="IX">IX
+                </label>
+                <label for="X">
+                    <input type="radio" value="X" name="class" id="X">X
+                </label>
+                <label for="XI">
+                    <input type="radio" value="XI" name="class" id="XI">XI
+                </label>
+                <label for="XII">
+                    <input type="radio" value="XII" name="class" id="XII">XII
+                </label>
+                <br>
+
+                <label for="roll_no"><b><p>Enter Roll No</p></b></label>
+                <input type="number" placeholder="e.g. 093210">
+                <br>
+
+                <h3>Select City</h3>
+                <select name="City" >
+                    <option value="Lahore">Lahore</option>
+                    <option value="Multan">Multan</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Karachi">Karachi</option>
+                </select>
+
+                <h3>Date - of - Birth</h3>
+                <input type="date">
+
+                <h3>Select Course</h3>
+                <label for="HTML5">
+                    <input type="checkbox" value="HTML5" name="Course">HTML5
+                </label>
+                <label for="CSS3">
+                    <input type="checkbox" value="CSS3" name="Course">CSS3
+                </label>
+                <label for="JS">
+                    <input type="checkbox" value="JS" name="Course">JS
+                </label>
+                <br><br>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+
 </body>
 </html>
